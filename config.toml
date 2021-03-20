@@ -1,0 +1,6 @@
+base_url = "https://blog.tlgs.dev"
+title = "ars longa"
+
+[markdown]
+highlight_code = true
+highlight_theme = "charcoal"

@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Source Code Pro';
+  src: url('../fonts/SourceCodePro-Regular.otf.woff2');
+}
+
+body {
+  color: #070707;
+  font-family: system-ui, sans-serif;
+  line-height: 1.4rem;
+  max-width: 88ch;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+h1 {
+  color: tomato;
+}
+
+.post {
+  margin-bottom: 1rem;
+}
+
+.date {
+  display: block;
+  font-family: monospace;
+}
+
+.back {
+  text-decoration: none;
+}
+
+article h1 {
+  margin-bottom: 0.2rem;
+}
+
+.zola-anchor {
+  color: rgba(255, 99, 71, 0.3);  /* nicely chopped tomato*/
+  padding-left: 0.5rem;
+  text-decoration: none;
+  font-size: smaller;
+  vertical-align: text-top;
+}
+
+.zola-anchor:hover {
+  color: tomato;
+}
+
+pre {
+  border-radius: 6px;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+code {
+  font-family: 'Source Code Pro', 'Consolas', monospace;
+  font-size: 0.875rem;
+  line-height: initial;
+}
+
+/* Inline code */
+p > code {
+  background-color: #efefef;
+  padding: 2.5px 5px;
+  border-radius: 6px;
+}
+
+summary {
+  cursor: pointer;
+  padding: 0.2rem;
+}
+
+summary:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
+}
