@@ -8,39 +8,40 @@ I take a peek at what the classic Hello, World! program looks like
 and then judge the language entirely on _how it makes me feel_.
 
 It's of course very naive to reduce a language to the look of a simple program,
-but I think there's something powerful with performing this test:
-you get a glimpse of the explicit complexity required to perform a basic task.
+but I think there's something powerful about this test:
+you get a glimpse of the explicit complexity that comes with such a basic task.
 I like to think of it this way: the old adage "Don't judge a book by its cover"
 is good to keep in mind but you should still be able to say "That's one ugly ass cover".
 
-I'm sure one could come up with arguments about ease of use, accessibility, or
-"user retention" that would be suitable to this discussion, but that's not fun;
+It's easy could come up with arguments about the importance of a language's
+first impression on an user, about ease-of-use, or learning curves that would elevate
+the discussion about the importance of Hello, World!, but that's not fun;
 Assigning arbitrarty values to the subjective feel of a language is — so that's
 what I'll do.
 
 ## the tier list
 
-I decided to restrict the candidate list to languages in the 'Most Popular'
-or 'Most Loved' sections of
+I decided to restrict the candidate list to languages in the 'Most Popular' and
+'Most Loved' sections of
 [Stack Overflow's 2020 Developer Survey](https://insights.stackoverflow.com/survey/2020).
 I excluded HTML/CSS and SQL for hopefully obvious reasons
 (though `SELECT 'hello, world';` would probably win it all).
 This unfortunately means that we miss out on other interesting languages such as Lua,
 Zig, Crystal, D, or Nim.
 
-When judging each language I looked at would _should be_ the idiomatic way
-to write the program.
-For those I'm not familiar with I looked at the language's project page and
+When judging each language I looked at would _should be_ the
+idiomatic version of the program.
+For those I'm not familiar with I visited the language's project page and
 searched for their recommended example.
-If there was none (which is a bad sign) I looked at any linked
+If there was none (which I see as a bad sign), I looked at any linked
 'Getting Started' resources.
 If this failed, I resorted to online tutorials or Stack Overflow answers.
 It's sad to have to admit that for some of these I ended up downloading
 a reference introductory book to be confident I had arrived at an idiomatic version.
 
 You would probably use something like [TierMaker](https://tiermaker.com/)
-to generate your own tier list but every template contained wonky or unnoficial
-language logos, so I went with trusty old Paint.NET and shaky mouse movement:
+to generate your own tier list but every template contained wonky logos or was missing
+a couple of languages, so I went with trusty old Paint.NET and shaky mouse movement:
 
 ![Language tier list](/images/hello.png)
 
