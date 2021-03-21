@@ -13,10 +13,10 @@ you get a glimpse of the explicit complexity that comes with such a basic task.
 I like to think of it this way: the old adage "Don't judge a book by its cover"
 is good to keep in mind but you should still be able to say "That's one ugly ass cover".
 
-It's easy could come up with arguments about the importance of a language's
+It's easy to come up with arguments about the importance of a language's
 first impression on an user, about ease-of-use, or learning curves that would elevate
 the discussion about the importance of Hello, World!, but that's not fun;
-Assigning arbitrarty values to the subjective feel of a language is — so that's
+Assigning arbitrary values to the subjective feel of a language is — so that's
 what I'll do.
 
 ## the tier list
@@ -29,9 +29,9 @@ I excluded HTML/CSS and SQL for hopefully obvious reasons
 This unfortunately means that we miss out on other interesting languages such as Lua,
 Zig, Crystal, D, or Nim.
 
-When judging each language I looked at would _should be_ the
+When judging each language I looked at what _should be_ the
 idiomatic version of the program.
-For those I'm not familiar with I visited the language's project page and
+For those I'm not familiar with, I visited the language's project page and
 searched for their recommended example.
 If there was none (which I see as a bad sign), I looked at any linked
 'Getting Started' resources.
@@ -330,6 +330,7 @@ int main (int argc, const char * argv[]) {
 }
 ```
 
-source: [Programming in Objective-C, and others](https://www.pearson.com/us/higher-education/program/Kochan-Programming-in-Objective-C-6th-Edition/PGM106849.html)
+source: [Programming in Objective-C](https://www.pearson.com/us/higher-education/program/Kochan-Programming-in-Objective-C-6th-Edition/PGM106849.html),
+and others
 
 </details>
