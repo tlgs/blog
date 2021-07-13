@@ -18,6 +18,7 @@ h1 {
 .date {
   display: block;
   font-family: ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: smaller;
 }
 
 .back {
