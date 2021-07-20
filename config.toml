@@ -1,6 +1,6 @@
-base_url = "https://blog.tlgs.dev"
+base_url = "https://tlgs.dev"
 title = "ars longa"
 
 [markdown]
 highlight_code = true
-highlight_theme = "charcoal"
+highlight_theme = "base16-atelierdune-light"

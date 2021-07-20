@@ -26,15 +26,16 @@ article h1 {
 }
 
 .zola-anchor {
-  color: rgba(48, 48, 48, 0.3);
+  color: #cdcdcd;
   text-decoration: none;
 }
 
 .zola-anchor:hover {
-  color: orange;
+  color: tomato;
 }
 
 pre {
+  background-color: #efefef !important;
   border-radius: 6px;
   padding: 10px;
   overflow-x: auto;
