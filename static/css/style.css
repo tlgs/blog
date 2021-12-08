@@ -25,12 +25,13 @@ article h1 {
   margin-bottom: 0.2rem;
 }
 
-.zola-anchor {
+.header-anchor {
   color: #cdcdcd;
+  padding-right: 0.4rem;
   text-decoration: none;
 }
 
-.zola-anchor:hover {
+.header-anchor:hover {
   color: tomato;
 }
 

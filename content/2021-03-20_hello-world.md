@@ -131,7 +131,7 @@ puts "hello, world"
 <details>
 <summary>Perl</summary>
 
-```pl
+```perl
 print "hello, world\n"
 ```
 
@@ -140,7 +140,7 @@ print "hello, world\n"
 <details>
 <summary>Dart</summary>
 
-```m
+```dart
 void main() {
   print('hello, world');
 }
@@ -318,7 +318,7 @@ public class Hello {
 <details>
 <summary>Objective-C</summary>
 
-```m
+```objc
 #import <Foundation/Foundation.h>
 
 int main (int argc, const char * argv[]) {

@@ -1,6 +1,13 @@
-base_url = "https://tlgs.dev"
+baseURL = "https://tlgs.dev"
 title = "ars longa"
 
-[markdown]
-highlight_code = true
-highlight_theme = "base16-atelierdune-light"
+[frontmatter]
+  date = [":filename", ":default"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+  [markup.highlight]
+    style = "pygments"

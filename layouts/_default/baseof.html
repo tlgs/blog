@@ -3,14 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %} {% endblock title %}</title>
+    <title>{{ block "title" . }} {{ end }}</title>
     <link rel="shortcut icon" href="#" />
     <link rel="stylesheet" href="/css/style.css">
   </head>
 
   <body>
-    {% block content %} {% endblock content %}
+    {{ block "main" . }}
+    {{ end }}
   </body>
 
-  {% block footer %} {% endblock footer %}
+  {{ block "footer" . }}
+  {{ end }}
 </html>

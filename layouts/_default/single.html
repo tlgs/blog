@@ -1,0 +1,21 @@
+{{ define "title" }}{{ .Title }}{{ end }}
+
+{{ define "main" }}
+<nav>
+  <a class="back" href={{ "/" | absURL }}>↩</a>
+</nav>
+
+<article>
+  <h1>{{ .Title }}</h1>
+  <span class="date">{{ .Date | time.Format "2006-01-02" }}</span>
+  {{ .Content }}
+</article>
+{{ end }}
+
+{{ define "footer" }}
+<footer>
+  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+    <img alt="Creative Commons Licence" src="/images/cc-by-sa.png" />
+  </a>
+</footer>
+{{ end }}
