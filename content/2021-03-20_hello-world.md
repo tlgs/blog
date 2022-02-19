@@ -37,13 +37,16 @@ If there was none (which I see as a bad sign), I looked at any linked
 'Getting Started' resources.
 If this failed, I resorted to online tutorials or Stack Overflow answers.
 It's sad to have to admit that for some of these I ended up downloading
-a reference introductory book to be confident I had arrived at an idiomatic version.
+a reference introductory book to be confident I had found an idiomatic version.
 
-You would probably use something like [TierMaker](https://tiermaker.com/)
-to generate your own tier list but every template contained wonky logos or was missing
-a couple of languages, so I went with trusty old Paint.NET and shaky mouse movement:
-
-![Language tier list](/images/hello.png)
+| Tier                                           | Languages                          |
+| ---------------------------------------------- | ---------------------------------- |
+| <span style="color: red;">**S**</span>         | Bash, Python, Swift, JavaScript    |
+| <span style="color: orange;">**A**</span>      | Julia, Ruby, PHP, Perl             |
+| <span style="color: gold;">**B**</span>        | Dart, Kotlin, Rust                 |
+| <span style="color: greenyellow;">**C**</span> | VBA, Go, C, Haskell, Scala, C++, R |
+| <span style="color: limegreen;">**D**</span>   | Assembly                           |
+| <span style="color: green;">**E**</span>       | C#, Java, Objective-C              |
 
 While I'm sure you can infer something about my taste from this list, I think
 some versions are undeniably more beautiful than others —

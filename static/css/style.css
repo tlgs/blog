@@ -55,6 +55,18 @@ p > code {
   border-radius: 6px;
 }
 
+table {
+  margin: auto;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+th, td {
+  background: #efefef;
+  text-align: center;
+  padding: .5rem 2rem .5rem 2rem;
+}
+
 summary {
   cursor: pointer;
   padding: 0.2rem;
