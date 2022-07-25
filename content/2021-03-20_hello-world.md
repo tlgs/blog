@@ -39,14 +39,28 @@ If this failed, I resorted to online tutorials or Stack Overflow answers.
 It's sad to have to admit that for some of these I ended up downloading
 a reference introductory book to be confident I had found an idiomatic version.
 
-| Tier                                           | Languages                          |
-| ---------------------------------------------- | ---------------------------------- |
-| <span style="color: red;">**S**</span>         | Bash, Python, Swift, JavaScript    |
-| <span style="color: orange;">**A**</span>      | Julia, Ruby, PHP, Perl             |
-| <span style="color: gold;">**B**</span>        | Dart, Kotlin, Rust                 |
-| <span style="color: greenyellow;">**C**</span> | VBA, Go, C, Haskell, Scala, C++, R |
-| <span style="color: limegreen;">**D**</span>   | Assembly                           |
-| <span style="color: green;">**E**</span>       | C#, Java, Objective-C              |
+<style>
+  .tierlist th { display: none; }
+  .tierlist tr:nth-child(1) td:nth-child(1) { background-color: #ff7f7f; }
+  .tierlist tr:nth-child(2) td:nth-child(1) { background-color: #ffbf7f; }
+  .tierlist tr:nth-child(3) td:nth-child(1) { background-color: #ffdf7f; }
+  .tierlist tr:nth-child(4) td:nth-child(1) { background-color: #ffff7f; }
+  .tierlist tr:nth-child(5) td:nth-child(1) { background-color: #bfff7f; }
+  .tierlist tr:nth-child(6) td:nth-child(1) { background-color: #7fff7f; }
+</style>
+
+<div class="tierlist">
+
+|       |                                    |
+| ------| ---------------------------------- |
+| **S** | Bash, Python, Swift, JavaScript    |
+| **A** | Julia, Ruby, PHP, Perl             |
+| **B** | Dart, Kotlin, Rust                 |
+| **C** | VBA, Go, C, Haskell, Scala, C++, R |
+| **D** | Assembly                           |
+| **E** | C#, Java, Objective-C              |
+
+</div>
 
 While I'm sure you can infer something about my taste from this list, I think
 some versions are undeniably more beautiful than others —
@@ -72,7 +86,6 @@ along with any special notes about their source:
 ```bash
 echo 'hello, world'
 ```
-
 </details>
 
 <details>
@@ -81,7 +94,6 @@ echo 'hello, world'
 ```python
 print("hello, world")
 ```
-
 </details>
 
 <details>
@@ -90,7 +102,6 @@ print("hello, world")
 ```swift
 print("hello, world")
 ```
-
 </details>
 
 <details>
@@ -99,7 +110,6 @@ print("hello, world")
 ```javascript
 console.log("hello, world");
 ```
-
 </details>
 
 <details>
@@ -108,7 +118,6 @@ console.log("hello, world");
 ```julia
 println("hello, world")
 ```
-
 </details>
 
 <details>
@@ -117,7 +126,6 @@ println("hello, world")
 ```ruby
 puts "hello, world"
 ```
-
 </details>
 
 <details>
@@ -128,7 +136,6 @@ puts "hello, world"
     echo 'hello, world';
 ?>
 ```
-
 </details>
 
 <details>
@@ -137,7 +144,6 @@ puts "hello, world"
 ```perl
 print "hello, world\n"
 ```
-
 </details>
 
 <details>
@@ -148,7 +154,6 @@ void main() {
   print('hello, world');
 }
 ```
-
 </details>
 
 <details>
@@ -159,7 +164,6 @@ fun main() {
     println("hello, world")
 }
 ```
-
 </details>
 
 <details>
@@ -170,7 +174,6 @@ fn main() {
     println!("hello, world");
 }
 ```
-
 </details>
 
 <details>
@@ -179,7 +182,6 @@ fn main() {
 ```vba
 WScript.Echo "hello, world"
 ```
-
 </details>
 
 <details>
@@ -194,7 +196,6 @@ func main() {
     fmt.Println("hello, world")
 }
 ```
-
 </details>
 
 <details>
@@ -208,7 +209,6 @@ int main(void) {
     return 0;
 }
 ```
-
 </details>
 
 <details>
@@ -219,7 +219,6 @@ main = putStrLn "hello, world"
 ```
 
 source: [Learn you a Haskell for Great Good!](http://learnyouahaskell.com/)
-
 </details>
 
 <details>
@@ -232,7 +231,6 @@ object Hello {
     }
 }
 ```
-
 </details>
 
 <details>
@@ -247,7 +245,6 @@ int main() {
 ```
 
 source: [Bjarne Stroustrup, probably](https://en.wikipedia.org/wiki/C%2B%2B#Language)
-
 </details>
 
 <details>
@@ -256,7 +253,6 @@ source: [Bjarne Stroustrup, probably](https://en.wikipedia.org/wiki/C%2B%2B#Lang
 ```r
 cat("hello, world\n")
 ```
-
 </details>
 
 <details>
@@ -283,7 +279,6 @@ len: equ $-msg
 ```
 
 source: [sircmpwn](https://drewdevault.com/2020/01/04/Slow.html)
-
 </details>
 
 <details>
@@ -302,7 +297,6 @@ class Hello
 ```
 
 source: [A Tour of C#](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/#hello-world)
-
 </details>
 
 <details>
@@ -315,7 +309,6 @@ public class Hello {
     }
 }
 ```
-
 </details>
 
 <details>
@@ -335,5 +328,4 @@ int main (int argc, const char * argv[]) {
 
 source: [Programming in Objective-C](https://www.pearson.com/us/higher-education/program/Kochan-Programming-in-Objective-C-6th-Edition/PGM106849.html),
 and others
-
 </details>

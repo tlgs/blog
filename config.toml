@@ -1,13 +1,11 @@
 baseURL = "https://tlgs.dev"
 title = "ars longa"
 
+disableKinds = ["taxonomy", "term"]
+
 [frontmatter]
-  date = [":filename", ":default"]
+date = [":filename", ":default"]
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-
-  [markup.highlight]
-    style = "pygments"
+goldmark.renderer.unsafe = true
+highlight.style = "pygments"
