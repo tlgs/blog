@@ -14,12 +14,12 @@ I like to think of it this way: the old adage "Don't judge a book by its cover"
 is good to keep in mind but you should still be able to say "That's one ugly ass cover".
 
 It's easy to come up with arguments about the importance of a language's
-first impression on an user, about ease-of-use, or learning curves that would elevate
+first impression on an user (or about ease-of-use, or learning curves) that would elevate
 the discussion about the importance of Hello, World!, but that's not fun;
 Assigning arbitrary values to the subjective feel of a language is — so that's
 what I'll do.
 
-## the tier list
+## Tierlisting
 
 I decided to restrict the candidate list to languages in the 'Most Popular' and
 'Most Loved' sections of
@@ -36,7 +36,7 @@ searched for their recommended example.
 If there was none (which I see as a bad sign), I looked at any linked
 'Getting Started' resources.
 If this failed, I resorted to online tutorials or Stack Overflow answers.
-It's sad to have to admit that for some of these I ended up downloading
+It's sad to have to admit that for some of these I ended up looking up
 a reference introductory book to be confident I had found an idiomatic version.
 
 <style>
@@ -70,15 +70,20 @@ I'd argue you should re-evaluate your
 
 Compiling this was an interesting exercise, and I now _definitely_ have a much better
 grasp of the programming language landscape.
-Jokes aside, if you're actually interested in a meaningful analysis of Hello, World!
+Joking aside, if you're actually interested in a meaningful analysis of Hello, World!
 across programming languages, I recommend Drew DeVault's series of posts
 ([1](https://drewdevault.com/2020/01/04/Slow.html),
 [2](https://drewdevault.com/2020/01/08/Re-Slow.html)).
 
-## source code
+## Source code
 
 Below are the programs considered for each language,
 along with any special notes about their source:
+
+<style>
+  summary { cursor: pointer; padding: 0.2rem; }
+  summary:hover { text-decoration: underline; }
+</style>
 
 <details>
 <summary>Bash / Shell / Powershell</summary>
@@ -326,6 +331,7 @@ int main (int argc, const char * argv[]) {
 }
 ```
 
-source: [Programming in Objective-C](https://www.pearson.com/us/higher-education/program/Kochan-Programming-in-Objective-C-6th-Edition/PGM106849.html),
+source:
+[Programming in Objective-C](https://www.pearson.com/us/higher-education/program/Kochan-Programming-in-Objective-C-6th-Edition/PGM106849.html),
 and others
 </details>
