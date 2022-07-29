@@ -2,6 +2,20 @@
 title = "Hello, World!"
 +++
 
+<style>
+  .tierlist th { display: none; }
+  .tierlist tr:nth-child(1) td:nth-child(1) { background-color: #ff7f7f; }
+  .tierlist tr:nth-child(2) td:nth-child(1) { background-color: #ffbf7f; }
+  .tierlist tr:nth-child(3) td:nth-child(1) { background-color: #ffdf7f; }
+  .tierlist tr:nth-child(4) td:nth-child(1) { background-color: #ffff7f; }
+  .tierlist tr:nth-child(5) td:nth-child(1) { background-color: #bfff7f; }
+  .tierlist tr:nth-child(6) td:nth-child(1) { background-color: #7fff7f; }
+
+  summary { cursor: pointer; padding: 0.2rem; }
+  summary:hover { text-decoration: underline; }
+</style>
+
+
 Whenever I encounter a programming language that I haven't worked with,
 I like to do what I call the **Hello, World! test** —
 I take a peek at what the classic Hello, World! program looks like
@@ -19,7 +33,7 @@ the discussion about the importance of Hello, World!, but that's not fun;
 Assigning arbitrary values to the subjective feel of a language is — so that's
 what I'll do.
 
-## Tierlisting
+## Making a tier list
 
 I decided to restrict the candidate list to languages in the 'Most Popular' and
 'Most Loved' sections of
@@ -39,16 +53,6 @@ If this failed, I resorted to online tutorials or Stack Overflow answers.
 It's sad to have to admit that for some of these I ended up looking up
 a reference introductory book to be confident I had found an idiomatic version.
 
-<style>
-  .tierlist th { display: none; }
-  .tierlist tr:nth-child(1) td:nth-child(1) { background-color: #ff7f7f; }
-  .tierlist tr:nth-child(2) td:nth-child(1) { background-color: #ffbf7f; }
-  .tierlist tr:nth-child(3) td:nth-child(1) { background-color: #ffdf7f; }
-  .tierlist tr:nth-child(4) td:nth-child(1) { background-color: #ffff7f; }
-  .tierlist tr:nth-child(5) td:nth-child(1) { background-color: #bfff7f; }
-  .tierlist tr:nth-child(6) td:nth-child(1) { background-color: #7fff7f; }
-</style>
-
 <div class="tierlist">
 
 |       |                                    |
@@ -63,7 +67,7 @@ a reference introductory book to be confident I had found an idiomatic version.
 </div>
 
 While I'm sure you can infer something about my taste from this list, I think
-some versions are undeniably more beautiful than others —
+some versions are undeniably more beautiful than others:
 If you take a look at Java and say "Hmmmm, that's one crispy Hello, World!",
 I'd argue you should re-evaluate your
 [taste as a programmer](http://www.paulgraham.com/taste.html).
@@ -79,11 +83,6 @@ across programming languages, I recommend Drew DeVault's series of posts
 
 Below are the programs considered for each language,
 along with any special notes about their source:
-
-<style>
-  summary { cursor: pointer; padding: 0.2rem; }
-  summary:hover { text-decoration: underline; }
-</style>
 
 <details>
 <summary>Bash / Shell / Powershell</summary>
