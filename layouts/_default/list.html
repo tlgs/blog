@@ -1,12 +1,14 @@
 {{ define "title" }}{{ .Site.Title }}{{ end }}
 
-{{ define "main" }}
-<h1>{{ .Site.Title }}</h1>
+{{ define "body" }}
+  <body>
+    <h1>{{ .Site.Title }}</h1>
 
-{{ range .Pages }}
-<div class="post">
-  <span class="date">{{ .Date | time.Format "2006-01-02" }}</span>
-  <a href="{{ .Permalink }}">{{ .Title }}</a>
-</div>
-{{ end }}
+    {{ range .Pages }}
+    <div class="post">
+      <span class="date">{{ .Date | time.Format "2006-01-02" }}</span>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </div>
+    {{ end }}
+  </body>
 {{ end }}

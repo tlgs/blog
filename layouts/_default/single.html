@@ -1,21 +1,22 @@
 {{ define "title" }}{{ .Title }}{{ end }}
 
-{{ define "main" }}
-<nav>
-  <a class="back" href={{ "/" | absURL }}>↩&#xFE0E;</a>
-</nav>
+{{ define "body" }}
+  <body>
+    <h1><a href="/">{{ .Site.Title }}</a> / {{ .Title }}</h1>
+    <span class="date">{{ .Date | time.Format "2006-01-02" }}</span>
 
-<article>
-  <h1>{{ .Title }}</h1>
-  <span class="date">{{ .Date | time.Format "2006-01-02" }}</span>
-  {{ .Content }}
-</article>
+    <main>
+      <article>
+        {{ .Content }}
+      </article>
+    </main>
+  </body>
 {{ end }}
 
 {{ define "footer" }}
-<footer>
-  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-    <img alt="Creative Commons Licence" src="/images/cc-by-sa.png" />
-  </a>
-</footer>
+  <footer>
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <img alt="Creative Commons Licence" src="/images/cc-by-sa.png" />
+    </a>
+  </footer>
 {{ end }}
