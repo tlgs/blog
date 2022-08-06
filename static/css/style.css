@@ -1,8 +1,8 @@
 body {
   color: #303030;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-  line-height: 1.6rem;
-  max-width: 88ch;
+  line-height: 160%;
+  max-width: 80ch;
   margin: 0 auto;
   padding: 1rem;
 }
@@ -44,7 +44,6 @@ p > code {
   padding: 2.5px 5px;
   border-radius: 6px;
 }
-
 
 table {
   margin: auto;

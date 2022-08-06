@@ -3,13 +3,15 @@ title = "Hello, World!"
 +++
 
 <style>
+  .tierlist table { border: none; }
   .tierlist th { display: none; }
-  .tierlist tr:nth-child(1) td:nth-child(1) { background-color: #ff7f7f; }
-  .tierlist tr:nth-child(2) td:nth-child(1) { background-color: #ffbf7f; }
-  .tierlist tr:nth-child(3) td:nth-child(1) { background-color: #ffdf7f; }
-  .tierlist tr:nth-child(4) td:nth-child(1) { background-color: #ffff7f; }
-  .tierlist tr:nth-child(5) td:nth-child(1) { background-color: #bfff7f; }
-  .tierlist tr:nth-child(6) td:nth-child(1) { background-color: #7fff7f; }
+
+  .tierlist tr:nth-child(1) td:nth-child(1) { background-color: #75a7fc; }
+  .tierlist tr:nth-child(2) td:nth-child(1) { background-color: #78bf63; }
+  .tierlist tr:nth-child(3) td:nth-child(1) { background-color: #9fd041; }
+  .tierlist tr:nth-child(4) td:nth-child(1) { background-color: #f8e561; }
+  .tierlist tr:nth-child(5) td:nth-child(1) { background-color: #e79724; }
+  .tierlist tr:nth-child(6) td:nth-child(1) { background-color: #b80000; }
 
   summary { cursor: pointer; padding: 0.2rem; }
   summary:hover { text-decoration: underline; }
