@@ -6,7 +6,7 @@
     <title>{{ .Title }}</title>
     <link rel="shortcut icon" href="#" />
 
-    {{ $base := resources.Get "base.css" | minify | fingerprint }}
+    {{ $base := resources.Get "css/base.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $base.Permalink }}" integrity="{{ $base.Data.Integrity }}">
   </head>
 
