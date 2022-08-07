@@ -1,0 +1,12 @@
+table { border: none; }
+th { display: none; }
+
+tr:nth-child(1) td:nth-child(1) { background-color: #75a7fc; }
+tr:nth-child(2) td:nth-child(1) { background-color: #78bf63; }
+tr:nth-child(3) td:nth-child(1) { background-color: #9fd041; }
+tr:nth-child(4) td:nth-child(1) { background-color: #f8e561; }
+tr:nth-child(5) td:nth-child(1) { background-color: #e79724; }
+tr:nth-child(6) td:nth-child(1) { background-color: #b80000; }
+
+summary { cursor: pointer; padding: 0.2rem; }
+summary:hover { text-decoration: underline; }

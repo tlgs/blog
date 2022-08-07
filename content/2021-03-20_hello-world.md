@@ -1,22 +1,7 @@
 +++
 title = "Hello, World!"
+customcss = "hello-world.css"
 +++
-
-<style>
-  .tierlist table { border: none; }
-  .tierlist th { display: none; }
-
-  .tierlist tr:nth-child(1) td:nth-child(1) { background-color: #75a7fc; }
-  .tierlist tr:nth-child(2) td:nth-child(1) { background-color: #78bf63; }
-  .tierlist tr:nth-child(3) td:nth-child(1) { background-color: #9fd041; }
-  .tierlist tr:nth-child(4) td:nth-child(1) { background-color: #f8e561; }
-  .tierlist tr:nth-child(5) td:nth-child(1) { background-color: #e79724; }
-  .tierlist tr:nth-child(6) td:nth-child(1) { background-color: #b80000; }
-
-  summary { cursor: pointer; padding: 0.2rem; }
-  summary:hover { text-decoration: underline; }
-</style>
-
 
 Whenever I encounter a programming language that I haven't worked with,
 I like to do what I call the **Hello, World! test** —
@@ -55,8 +40,6 @@ If this failed, I resorted to online tutorials or Stack Overflow answers.
 It's sad to have to admit that for some of these I ended up looking up
 a reference introductory book to be confident I had found an idiomatic version.
 
-<div class="tierlist">
-
 |       |                                    |
 | ------| ---------------------------------- |
 | **S** | Bash, Python, Swift, JavaScript    |
@@ -64,13 +47,11 @@ a reference introductory book to be confident I had found an idiomatic version.
 | **B** | Dart, Kotlin, Rust                 |
 | **C** | VBA, Go, C, Haskell, Scala, C++, R |
 | **D** | Assembly                           |
-| **E** | C#, Java, Objective-C              |
-
-</div>
+| **F** | C#, Java, Objective-C              |
 
 While I'm sure you can infer something about my taste from this list, I think
 some versions are undeniably more beautiful than others:
-If you take a look at Java and say "Hmmmm, that's one crispy Hello, World!",
+if you take a look at Java and say "Hmmmm, that's one crispy Hello, World!",
 I'd argue you should re-evaluate your
 [taste as a programmer](http://www.paulgraham.com/taste.html).
 

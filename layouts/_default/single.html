@@ -8,6 +8,11 @@
 
     {{ $base := resources.Get "css/base.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $base.Permalink }}" integrity="{{ $base.Data.Integrity }}">
+
+    {{ with .Params.customcss }}
+      {{ $custom := resources.Get (printf "css/%s" .) | minify | fingerprint }}
+      <link rel="stylesheet" href="{{ $custom.Permalink }}" integrity="{{ $custom.Data.Integrity }}">
+    {{ end }}
   </head>
 
   <body>
