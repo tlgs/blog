@@ -1,6 +1,6 @@
 baseURL = "https://tlgs.dev"
 title = "ars longa"
-
+enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 
 [frontmatter]
