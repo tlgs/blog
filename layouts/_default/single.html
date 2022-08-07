@@ -1,22 +1,24 @@
-{{ define "title" }}{{ .Title }}{{ end }}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }}</title>
+    <link rel="shortcut icon" href="#" />
 
-{{ define "body" }}
+    {{ $base := resources.Get "base.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $base.Permalink }}" integrity="{{ $base.Data.Integrity }}">
+  </head>
+
   <body>
-    <h1><a href="/">{{ .Site.Title }}</a> / {{ .Title }}</h1>
+    <h1><a href="/">~</a> / {{ .Title }}</h1>
     <span class="date">{{ .Date | time.Format "2006-01-02" }}</span>
 
-    <main>
-      <article>
-        {{ .Content }}
-      </article>
-    </main>
+    <article>
+      {{ .Content }}
+    </article>
   </body>
-{{ end }}
 
-{{ define "footer" }}
-  <footer>
-    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-      <img alt="Creative Commons Licence" src="/images/cc-by-sa.png" />
-    </a>
-  </footer>
-{{ end }}
+  {{ partial "footer" . }}
+
+</html>
