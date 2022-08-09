@@ -1,22 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    {{ partial "head-base" . }}
+{{ define "head" }}
+  {{ partial "head-base" . }}
 
-    {{ with .Params.customcss }}
-      {{ $custom := resources.Get (printf "css/%s" .) | minify | fingerprint }}
-      <link rel="stylesheet" href="{{ $custom.Permalink }}" integrity="{{ $custom.Data.Integrity }}">
-    {{ end }}
-  </head>
+  {{ with .Params.customcss }}
+    {{ $custom := resources.Get (printf "css/%s" .) | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $custom.Permalink }}" integrity="{{ $custom.Data.Integrity }}">
+  {{ end }}
+{{ end }}
 
-  <body>
-    <h1><a href="/">~</a> / {{ .Title }}</h1>
-    <span class="date">{{ .Date | time.Format "2006-01-02" }}</span>
+{{ define "main" }}
+  <h1><a href="/">~</a> / {{ .Title }}</h1>
+  <span class="date">{{ .Date | time.Format "2006-01-02" }}</span>
 
-    <article>
-      {{ .Content }}
-    </article>
-  </body>
+  <article>
+    {{ .Content }}
+  </article>
+{{ end }}
 
-  {{ partial "footer" . }}
-</html>
+{{ define "footer" }}
+<footer>
+  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+    <img alt="Creative Commons Licence" src="/images/cc-by-sa.png" width="80px" height="15px" />
+  </a>
+</footer>
+{{ end }}
