@@ -1,11 +1,15 @@
 baseURL = "https://tlgs.dev"
 title = "ars longa"
+
 enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
+
+[outputs]
+section = ["HTML"]  # disable RSS for sections
 
 [frontmatter]
 date = [":filename", ":default"]
 
 [markup]
-goldmark.renderer.unsafe = true
+goldmark.renderer.unsafe = true  # enable raw HTML rendering
 highlight.style = "pygments"
