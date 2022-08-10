@@ -68,7 +68,7 @@ Below are the programs considered for each language,
 along with any special notes about their source:
 
 <details>
-<summary>Bash / Shell / Powershell</summary>
+<summary><span>Bash / Shell / Powershell</span></summary>
 
 ```bash
 echo 'hello, world'
@@ -76,7 +76,7 @@ echo 'hello, world'
 </details>
 
 <details>
-<summary>Python</summary>
+<summary><span>Python</span></summary>
 
 ```python
 print("hello, world")
@@ -84,7 +84,7 @@ print("hello, world")
 </details>
 
 <details>
-<summary>Swift</summary>
+<summary><span>Swift</span></summary>
 
 ```swift
 print("hello, world")
@@ -92,7 +92,7 @@ print("hello, world")
 </details>
 
 <details>
-<summary>JavaScript / TypeScript</summary>
+<summary><span>JavaScript / TypeScript</span></summary>
 
 ```javascript
 console.log("hello, world");
@@ -100,7 +100,7 @@ console.log("hello, world");
 </details>
 
 <details>
-<summary>Julia</summary>
+<summary><span>Julia</span></summary>
 
 ```julia
 println("hello, world")
@@ -108,7 +108,7 @@ println("hello, world")
 </details>
 
 <details>
-<summary>Ruby</summary>
+<summary><span>Ruby</span></summary>
 
 ```ruby
 puts "hello, world"
@@ -116,7 +116,7 @@ puts "hello, world"
 </details>
 
 <details>
-<summary>PHP</summary>
+<summary><span>PHP</span></summary>
 
 ```php
 <?php
@@ -126,7 +126,7 @@ puts "hello, world"
 </details>
 
 <details>
-<summary>Perl</summary>
+<summary><span>Perl</span></summary>
 
 ```perl
 print "hello, world\n"
@@ -134,7 +134,7 @@ print "hello, world\n"
 </details>
 
 <details>
-<summary>Dart</summary>
+<summary><span>Dart</span></summary>
 
 ```dart
 void main() {
@@ -144,7 +144,7 @@ void main() {
 </details>
 
 <details>
-<summary>Kotlin</summary>
+<summary><span>Kotlin</span></summary>
 
 ```kotlin
 fun main() {
@@ -154,7 +154,7 @@ fun main() {
 </details>
 
 <details>
-<summary>Rust</summary>
+<summary><span>Rust</span></summary>
 
 ```rust
 fn main() {
@@ -164,7 +164,7 @@ fn main() {
 </details>
 
 <details>
-<summary>VBA</summary>
+<summary><span>VBA</span></summary>
 
 ```vba
 WScript.Echo "hello, world"
@@ -172,7 +172,7 @@ WScript.Echo "hello, world"
 </details>
 
 <details>
-<summary>Go</summary>
+<summary><span>Go</span></summary>
 
 ```go
 package main
@@ -186,7 +186,7 @@ func main() {
 </details>
 
 <details>
-<summary>C</summary>
+<summary><span>C</span></summary>
 
 ```c
 #include <stdio.h>
@@ -199,7 +199,7 @@ int main(void) {
 </details>
 
 <details>
-<summary>Haskell</summary>
+<summary><span>Haskell</span></summary>
 
 ```hs
 main = putStrLn "hello, world"
@@ -209,7 +209,7 @@ source: [Learn you a Haskell for Great Good!](http://learnyouahaskell.com/)
 </details>
 
 <details>
-<summary>Scala</summary>
+<summary><span>Scala</span></summary>
 
 ```scala
 object Hello {
@@ -221,7 +221,7 @@ object Hello {
 </details>
 
 <details>
-<summary>C++</summary>
+<summary><span>C++</span></summary>
 
 ```c++
 #include <iostream>
@@ -235,7 +235,7 @@ source: [Bjarne Stroustrup, probably](https://en.wikipedia.org/wiki/C%2B%2B#Lang
 </details>
 
 <details>
-<summary>R</summary>
+<summary><span>R</span></summary>
 
 ```r
 cat("hello, world\n")
@@ -243,7 +243,7 @@ cat("hello, world\n")
 </details>
 
 <details>
-<summary>Assembly (x86_64)</summary>
+<summary><span>Assembly (x86_64)</span></summary>
 
 ```asm
 bits 64
@@ -269,7 +269,7 @@ source: [sircmpwn](https://drewdevault.com/2020/01/04/Slow.html)
 </details>
 
 <details>
-<summary>C#</summary>
+<summary><span>C#</span></summary>
 
 ```c#
 using System;
@@ -287,7 +287,7 @@ source: [A Tour of C#](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-cs
 </details>
 
 <details>
-<summary>Java</summary>
+<summary><span>Java</span></summary>
 
 ```java
 public class Hello {
@@ -299,7 +299,7 @@ public class Hello {
 </details>
 
 <details>
-<summary>Objective-C</summary>
+<summary><span>Objective-C</span></summary>
 
 ```objc
 #import <Foundation/Foundation.h>
