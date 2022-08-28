@@ -8,12 +8,14 @@
 {{ end }}
 
 {{ define "main" }}
-  <h1><a href="/">~</a> / {{ .Title }}</h1>
-  <span class="date">{{ .Date | time.Format "2006-01-02" }}</span>
+  <header>
+    <h1><a href="/">~</a> / {{ .Title }}</h1>
+    <span class="date">{{ .Date | time.Format "2006-01-02" }}</span>
+  </header>
 
-  <article>
+  <main>
     {{ .Content }}
-  </article>
+  </main>
 {{ end }}
 
 {{ define "footer" }}
