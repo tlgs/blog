@@ -4,6 +4,7 @@
   {{ range (where .Site.RegularPages "Type" "p") }}
     <div class="post">
       <span class="date">{{ .Date | time.Format "2006-01-02" }}</span>
+      {{ if .Draft }}<span>[DRAFT]</span>{{ end }}
       <a href="{{ .Permalink }}">{{ .Title }}</a>
     </div>
   {{ end }}
