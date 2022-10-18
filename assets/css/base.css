@@ -98,7 +98,7 @@ code {
 }
 
 /* Inline code */
-p > code {
+p > code, li > code {
   background-color: var(--gray-200);
   border-radius: var(--border-radius-sm);
   padding: 0.15rem 0.3rem;
@@ -118,4 +118,9 @@ th, td {
 footer {
   margin-top: 2rem;
   text-align: center;
+}
+
+/* GoAT diagrams */
+.goat text {
+  font-family: var(--font-monospace);
 }
