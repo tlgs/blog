@@ -89,6 +89,8 @@ pre {
   border-radius: var(--border-radius-sm);
   padding: 0.75rem;
   overflow: auto;
+  white-space: pre;
+  word-wrap: normal;
 }
 
 code {
