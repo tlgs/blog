@@ -164,7 +164,7 @@ for completed := 0; completed < len(tracks); {
 }
 ```
 
-[^2]: Most transitions like `Queued🠖Running`, and `Running🠖Succeeded` are
+[^2]: Most transitions like `Queued ⇒ Running`, and `Running ⇒ Succeeded` are
       handled by the worker goroutine not seen here.
 
 ### The rest of the owl
