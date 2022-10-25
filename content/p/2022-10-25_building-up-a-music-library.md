@@ -46,7 +46,7 @@ something better™ and writing this up.
 <img id="gopher"
   src="/images/gopher.svg"
   alt="A gopher wearing a pirate hat and holding a wrench"
-  title="">
+  title="You Wouldn't Download a Car">
 
 Whenever concurrency is at the heart of a problem, Go is a good candidate
 when it comes to a programming language choice;
