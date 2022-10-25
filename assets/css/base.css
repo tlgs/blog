@@ -93,7 +93,7 @@ pre {
 
 code {
   font-family: var(--font-monospace);
-  font-size: .875rem;
+  font-size: 87.5%;
   line-height: initial;
 
   text-size-adjust: 100%;
