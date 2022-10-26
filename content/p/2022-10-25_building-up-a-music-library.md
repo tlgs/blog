@@ -43,11 +43,6 @@ something better™ and writing this up.
 
 ## Cue the gophers
 
-<img id="gopher"
-  src="/images/gopher.svg"
-  alt="A gopher wearing a pirate hat and holding a wrench"
-  title="You Wouldn't Download a Car">
-
 Whenever concurrency is at the heart of a problem, Go is a good candidate
 when it comes to a programming language choice;
 It's always a lot of fun to work out a solution using its concurrency primitives.
@@ -55,7 +50,7 @@ It's always a lot of fun to work out a solution using its concurrency primitives
 unmaintanable script from hell, but this time I was looking to sharpen my Go hammer.)
 I'll continue by sharing a couple of relevant notes on design and programming techniques.
 
-A watered-down requirement specification, along with design thoughts follows:
+A watered-down requirement specification, along with some design thoughts follows:
 
 - **Concurrent** - should perform downloads concurrently.
   Let's use goroutines to spawn and manage youtube-dl processes, and channels
@@ -127,8 +122,8 @@ func (s Status) String() string {
 }
 ```
 
-By using well-defined state transitions,
-the main control loop ends up being rather simple[^2] :
+By using well-defined state transitions[^2],
+the main control loop ends up being rather simple:
 
 ```go
 for completed := 0; completed < len(tracks); {
@@ -200,3 +195,10 @@ Completed: 7/17
 🚀 [download] Destination: Red Hot Chili Peppers - Carry Me Home (Official Audio…
 💤 exit status 1
 ```
+
+<img id="gopher"
+  src="/images/gopher.svg"
+  alt="A gopher wearing a pirate hat and holding a wrench"
+  width="150"
+  height="150"
+  title="You Wouldn't Download a Car">
