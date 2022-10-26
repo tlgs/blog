@@ -1,5 +1,6 @@
 #gopher {
-  float: right;
-  max-width: 20%;
-  padding: 0 2rem 1rem 2rem;
+  margin: 0 auto 2rem auto;
+  display: block;
+  width: 20%;
+  height: max-content;
 }

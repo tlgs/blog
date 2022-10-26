@@ -30,8 +30,8 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #212529;
-  --font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-sans-serif: Supreme, sans-serif;
+  --font-monospace: 'Martian Mono', monospace;
   --gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --body-font-family: var(--font-sans-serif);
   --body-font-size: 1rem;
@@ -56,22 +56,23 @@
 }
 
 body {
-  color: var(--dark);
+  color: var(--body-color);
   font-family: var(--font-sans-serif);
-  line-height: 1.5;
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
   max-width: 80ch;
   margin: 0 auto;
   padding: 1rem;
 }
 
 .post {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .date {
   display: block;
   font-family: var(--font-monospace);
-  font-size: smaller;
+  font-size: 11px;
 }
 
 a {
@@ -84,6 +85,11 @@ a:active, a:focus, a:hover {
   text-decoration: none;
 }
 
+h2, h3, h4, h5, h6 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
 pre {
   background-color: var(--gray-200);
   border-radius: var(--border-radius-sm);
@@ -93,9 +99,11 @@ pre {
 
 code {
   font-family: var(--font-monospace);
-  font-size: 87.5%;
-  line-height: initial;
+  font-variant-ligatures: none;
+  font-size: 12px;
+  line-height: 1.6;
 
+  /* see: <https://stackoverflow.com/q/38346494/5818220> */
   text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
@@ -127,5 +135,21 @@ footer {
 
 /* GoAT diagrams */
 .goat text {
-  font-family: var(--font-monospace);
+  font-family: var(--font-sans-serif);
+}
+
+@font-face {
+  font-family: 'Supreme';
+  src: url('/fonts/Supreme-Regular.woff2') format('woff2');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Martian Mono';
+  src: url('/fonts/MartianMono-StdLt.woff2') format('woff2');
+       font-weight: 300;
+       font-display: swap;
+       font-style: normal;
 }
