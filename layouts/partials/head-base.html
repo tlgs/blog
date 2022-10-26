@@ -3,7 +3,7 @@
 
 <title>{{ .Title }}</title>
 
-<link rel="shortcut icon" href="#" />
+<link rel="icon" href="data:,">
 
 {{ $base := resources.Get "css/base.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $base.Permalink }}" integrity="{{ $base.Data.Integrity }}">
