@@ -59,10 +59,8 @@ code {
   line-height: 1.5;
 
   /* see: <https://stackoverflow.com/q/38346494/5818220> */
-  text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
 }
 
 /* Inline code */
