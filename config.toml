@@ -12,4 +12,5 @@ date = [":filename", ":default"]
 
 [markup]
 goldmark.renderer.unsafe = true  # enable raw HTML rendering
-highlight.style = "pygments"
+
+highlight.noClasses = false
