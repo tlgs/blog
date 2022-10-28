@@ -1,6 +1,5 @@
 +++
 title = 'Slowly building up a music library, concurrently'
-customcss = 'building-up-a-music-library.css'
 +++
 
 [youtube-dl](http://ytdl-org.github.io/youtube-dl/) is one of my favorite pieces
@@ -201,4 +200,5 @@ Completed: 7/17
   alt="A gopher wearing a pirate hat and holding a wrench"
   width="150"
   height="150"
-  title="You Wouldn't Download a Car">
+  title="You Wouldn't Download a Car"
+  style="margin: 0 auto 2rem auto; display: block;">
