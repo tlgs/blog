@@ -96,28 +96,28 @@ values to display in our user interface:
 type Status uint8
 
 const (
-	StatusPending Status = iota
-	StatusQueued
-	StatusRunning
-	StatusSucceeded
-	StatusFailed
+    StatusPending Status = iota
+    StatusQueued
+    StatusRunning
+    StatusSucceeded
+    StatusFailed
 )
 
 func (s Status) String() string {
-	switch s {
-	case StatusPending:
-		return "💤"
-	case StatusQueued:
-		return "📬"
-	case StatusRunning:
-		return "🚀"
-	case StatusSucceeded:
-		return "💯"
-	case StatusFailed:
-		return "💣"
-	default:
-		return ""
-	}
+    switch s {
+    case StatusPending:
+        return "💤"
+    case StatusQueued:
+        return "📬"
+    case StatusRunning:
+        return "🚀"
+    case StatusSucceeded:
+        return "💯"
+    case StatusFailed:
+        return "💣"
+    default:
+        return ""
+    }
 }
 ```
 
