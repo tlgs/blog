@@ -8,6 +8,12 @@
   --link-hover-color: #0a58ca;
 }
 
+*, ::before, ::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
   color: var(--dark);
   font-family: var(--font-sans-serif);
@@ -70,6 +76,7 @@ p > code, li > code {
   background-color: var(--gray-200);
   border-radius: var(--border-radius-sm);
   padding: 0.15rem 0.3rem;
+  white-space: nowrap;
 }
 
 table {
