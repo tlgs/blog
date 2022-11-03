@@ -14,6 +14,13 @@ body {
   max-width: 80ch;
   margin: 0 auto;
   padding: 1rem;
+
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+h1 {
+  font-size: 1.8rem;
 }
 
 .post {
@@ -47,12 +54,8 @@ h2, h3, h4, h5, h6 {
 
 code {
   font-size: .875rem;
-  /* font-variant-ligatures: none; */
+  font-variant-ligatures: none;
   line-height: 1.5;
-
-  /* see: <https://stackoverflow.com/q/38346494/5818220> */
-  text-size-adjust: none;
-  -webkit-text-size-adjust: none;
 }
 
 pre {
@@ -62,7 +65,7 @@ pre {
   padding: 0.75rem;
 }
 
-/* Inline code */
+/* inline code */
 p > code, li > code {
   background-color: var(--gray-200);
   border-radius: var(--border-radius-sm);
